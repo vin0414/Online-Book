@@ -13,5 +13,7 @@ class permissionModel extends Model
     protected $fillable = ['userID','userCreation','userModification',
                             'tripCreation','tripModification',
                             'partnerRegistration','partnerModification',
-                            'promoCreation','discountCreation'];
+                            'promoCreation','promoModification',
+                            'discountCreation','discountModification',
+                            'crm','advanceBooking'];
 }

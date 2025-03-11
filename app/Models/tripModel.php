@@ -10,5 +10,5 @@ class tripModel extends Model
     use HasFactory;
     protected $table = "tbltrip";
     protected $primaryKey = "tripID";
-    protected $fillable = ['portID','timeDeparture','timeArrival','isActive','isOnline','Code'];
+    protected $fillable = ['portID','fromDate','toDate','timeDeparture','duration','isActive','isOnline','Code'];
 }

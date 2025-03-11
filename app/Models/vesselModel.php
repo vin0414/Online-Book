@@ -10,5 +10,5 @@ class vesselModel extends Model
     use HasFactory;
     protected $table = "tblvessel";
     protected $primaryKey = "vesselID";
-    protected $fillable = ['vesselName','vesselCode','portID','econo','premiumEcono','businessClass'];
+    protected $fillable = ['vesselName','vesselCode','portID','econo','premiumEcono','businessClass','others'];
 }

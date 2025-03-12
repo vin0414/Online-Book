@@ -9,5 +9,5 @@ class portModel extends Model
     use HasFactory;
     protected $table = "tblport";
     protected $primaryKey = "portID";
-    protected $fillable = ['portName'];
+    protected $fillable = ['portName','userID'];
 }

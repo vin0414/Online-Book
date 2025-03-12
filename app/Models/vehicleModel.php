@@ -10,5 +10,5 @@ class vehicleModel extends Model
     use HasFactory;
     protected $table = "tblvehicles";
     protected $primaryKey = "vID";
-    protected $fillable = ['vehicleName','FOC'];
+    protected $fillable = ['vehicleName','vehicleClass','FOC','userID'];
 }

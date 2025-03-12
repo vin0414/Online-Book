@@ -10,5 +10,5 @@ class rateModel extends Model
     use HasFactory;
     protected $table = "tblrates";
     protected $primaryKey = "ratesID";
-    protected $fillable = ['portID','accommodationID','vID','passenger_type','rate','discount','newRate'];
+    protected $fillable = ['portID','accommodationID','vID','passenger_type','rate','discount','newRate','userID'];
 }

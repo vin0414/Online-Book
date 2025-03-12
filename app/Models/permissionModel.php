@@ -15,5 +15,5 @@ class permissionModel extends Model
                             'partnerRegistration','partnerModification',
                             'promoCreation','promoModification',
                             'discountCreation','discountModification',
-                            'crm','advanceBooking'];
+                            'crm','advanceBooking','port','vessel'];
 }

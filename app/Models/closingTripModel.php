@@ -10,5 +10,5 @@ class closingTripModel extends Model
     use HasFactory;
     protected $table = "tblclosetrip";
     protected $primaryKey = "closeID";
-    protected $fillable = ['portID','tripID','fromDate','toDate','duration'];
+    protected $fillable = ['portID','tripID','fromDate','toDate','userID'];
 }

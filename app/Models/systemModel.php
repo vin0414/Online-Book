@@ -10,5 +10,5 @@ class systemModel extends Model
     use HasFactory;
     protected $table = "tblsystem";
     protected $primaryKey = "systemID";
-    protected $fillable = ['bookingPrior','userID'];
+    protected $fillable = ['minimumDays','maximumDays','cancellationTime','userID'];
 }

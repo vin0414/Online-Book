@@ -10,5 +10,5 @@ class configurationModel extends Model
     use HasFactory;
     protected $table = "tblconfiguration";
     protected $primaryKey = "configID";
-    protected $fillable = ['portID','fromDate','ToDate','withDiscount','isManual','userID'];
+    protected $fillable = ['portID','withDiscount','isManual','userID'];
 }
